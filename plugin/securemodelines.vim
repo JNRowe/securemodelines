@@ -28,6 +28,7 @@ if (! exists("g:secure_modelines_allowed_items"))
                 \ "spell", "nospell",
                 \ "spelllang",   "spl",
                 \ "isfname",     "isf",
+                \ "commentstring", "cms",
                 \ ]
 endif
 
