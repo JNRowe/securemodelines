@@ -13,22 +13,22 @@ let g:loaded_securemodelines = 1
 
 if (! exists("g:secure_modelines_allowed_items"))
     let g:secure_modelines_allowed_items = [
-                \ "textwidth",   "tw",
-                \ "softtabstop", "sts",
-                \ "tabstop",     "ts",
-                \ "shiftwidth",  "sw",
-                \ "expandtab",   "et",   "noexpandtab", "noet",
-                \ "filetype",    "ft",
-                \ "foldmethod",  "fdm",
-                \ "readonly",    "ro",   "noreadonly", "noro",
-                \ "rightleft",   "rl",   "norightleft", "norl",
-                \ "cindent",     "cin",  "nocindent", "nocin",
-                \ "smartindent", "si",   "nosmartindent", "nosi",
-                \ "autoindent",  "ai",   "noautoindent", "noai",
-                \ "spell", "nospell",
-                \ "spelllang",   "spl",
-                \ "isfname",     "isf",
+                \ "autoindent",    "ai",  "noautoindent",  "noai",
+                \ "cindent",       "cin", "nocindent",     "nocin",
                 \ "commentstring", "cms",
+                \ "expandtab",     "et",  "noexpandtab",   "noet",
+                \ "filetype",      "ft",
+                \ "foldmethod",    "fdm",
+                \ "isfname",       "isf",
+                \ "readonly",      "ro",  "noreadonly",    "noro",
+                \ "rightleft",     "rl",  "norightleft",   "norl",
+                \ "shiftwidth",    "sw",
+                \ "smartindent",   "si",  "nosmartindent", "nosi",
+                \ "softtabstop",   "sts",
+                \ "spell",                "nospell",
+                \ "spelllang",     "spl",
+                \ "tabstop",       "ts",
+                \ "textwidth",     "tw",
                 \ ]
 endif
 
